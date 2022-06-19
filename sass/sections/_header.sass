@@ -1,0 +1,52 @@
+.header
+  &--main
+    padding-top: 76px
+    padding-left: 100px
+    padding-right: 100px
+    padding-bottom: 76px
+
+.navbar
+  display: flex
+  align-items: center
+  justify-content: space-between
+  position: relative
+  &__link
+    flex-shrink: 0
+    width: 324px
+
+.menu
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &__link
+    position: relative
+    text-decoration: none
+    color: $primary
+    font-style: normal
+    font-weight: normal
+    font-size: 24px
+    line-height: 150%
+
+    &::after
+      content: ''
+      position: absolute
+      left: 0
+      display: inline-block
+      height: 1em
+      width: 100%
+      border-bottom: 1px solid
+      margin-top: 8px
+      opacity: 0
+      transition: opacity 0.35s, transform 0.35s
+      -webkit-transform: scale(0,1)
+      transform: scale(0,1)
+    &:hover::after
+      opacity: 1
+      transform: scale(1)
+
+.burder
+  display: none
+.drop-menu
+  display: none
+.modal
+  display: block

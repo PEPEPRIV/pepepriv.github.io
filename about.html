@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="https://i.ibb.co/d7HH1Yt/Open-Graph.jpg" />
+  <meta name="description"
+    content="We are the team of professionals thinking out of the box. Our fantasy not limited by the borders of the frame, because we can draw the picture outside. All the reels fully produced by our studio and internal team of 2D&3D garaphic designers. The main reason for us to wake up everyday is our work, work that can evoke the emotional response from the people looking on them from other side of the screen." />
+  <title>Heaven Production</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <header class="header header--fixed header--about">
+    <div class="navbar">
+      <a href="index.html" class="navbar__link">
+        <img src="img/logo.svg" alt="Logo: HEAVEN PRD CTN" class="logo">
+      </a>
+      <!-- /.navbar__link -->
+      <div class="burger-wrapper">
+        <a href="#" class="burger header__burger" data-toggle="modal">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </a>
+      </div>
+      <div class="menu navbar__menu">
+        <a href="index.html" class="menu__link">
+          Home
+        </a>
+
+        <!-- /.menu__list -->
+      </div>
+      <!-- /.menu navbar__menu -->
+    </div>
+    <!-- /.navbar -->
+  </header>
+  <!-- /.header -->
+  <div class="about">
+    <div class="container">
+      <div class="about-fade about-fade--left">
+        <div class="about-fade__empty about-fade__empty--first"></div>
+        <div class="about-fade__empty about-fade__empty--second"></div>
+      </div>
+      <div class="about-wrapper">
+        <div class="about-info">
+          <div class="about-text">
+            <h2 class="about-title">About</h2>
+            <p class="about-text__subtitle">We are the team of professionals thinking out of the box. Our fantasy not
+              limited by the borders of the frame, because
+              we can draw the picture outside. All the reels fully produced by our studio and internal team of 2D&3D
+              garaphic
+              designers. The main reason for us to wake up everyday is our work, work that can evoke the emotional
+              response from the
+              people looking on them from other side of the screen.</p>
+          </div>
+          <div class="about-clients">
+            <h2 class="about-title">Our clients</h2>
+            <div class="about-clients__clients">
+              <img src="img/about/clients.svg" alt="Clients" class="about-clients__img">
+            </div>
+          </div>
+        </div>
+        <div class="about-connect">
+          <div class="about-talk">
+            <div class="about-talk-wrapper">
+              <h2 class="about-title">Let’s talk</h2>
+
+
+              <!-- Начало формы -->
+              <form action="send.php" id="form" method="POST" class="about-form about-talk__form">
+
+                <!--  Input name -->
+                <div class="about-form__filling">
+                  <label for="formName" class="about-form__label">Name</label>
+                  <input type="text" id="formName" name="name" class="about-form__input about-form__input_name"
+                    placeholder="Your name" minlength="2" data-validate-field="name" required>
+                </div>
+                <!--  Input name -->
+
+
+                <!--  Input email -->
+                <div class="about-form__filling">
+                  <label for="formEmail" class="about-form__label">eMail</label>
+                  <input type="email" id="formEmail" name="email" class="about-form__input about-form__input_email"
+                    placeholder="your@email.com" data-validate-field="email" required>
+                </div>
+                <!--  Input email -->
+
+
+                <!--  Textarea -->
+                <div class="about-form__filling">
+                  <label for="formComment" class="about-form__label">The thing</label>
+                  <textarea name="message" id="formComment" class="about-form__comment about-form__comment_message"
+                    placeholder="Tell us what you wanna to discuss" data-validate-field="comment" required></textarea>
+                </div>
+                <!--  Textarea -->
+
+
+                <button type="submit" class="about-form__button">Mail us</button>
+              </form>
+              <!-- Конец формы -->
+
+
+
+            </div>
+          </div>
+          <div class="about-contacts">
+            <h2 class="about-title">Contacts</h2>
+            <span class="about-contacts__info"><span class="about-contacts__normal">Mail:</span> <a
+                class="about-contacts__link" href="mailto:hi@heaventv.ru">hi@heaventv.ru</a></span>
+            <span class="about-contacts__info"> <span class="about-contacts__normal">Phone:</span> <a
+                class="about-contacts__link" href="tel:+79653488662">: +7 (965) 348-86-62</a> </span>
+            <span class="about-contacts__info"> <span class="about-contacts__normal">Adress:</span> Moscow,
+              Tokmakov
+              Pereulok 23</span>
+            <div class="about-contacts__social">
+              <a target="_blank" href="https://vimeo.com/hvn" class="about-contacts__media-link">
+                <img src="img/vimeo.svg" alt="Be" class="vimeo about-contacts__media">
+              </a>
+              <a target="_blank" href="https://www.behance.net/heavenprdctn" class="about-contacts__media-link">
+                <img src="img/be.svg" alt="Be" class="be about-contacts__media">
+              </a>
+              <a target="_blank" href="https://www.instagram.com/hvn.prod/" class="about-contacts__media-link">
+                <img src="img/instagram.svg" alt="instagram" class="instagram about-contacts__media">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="about-fade">
+          <div class="about-fade__empty about-fade__empty--third"></div>
+          <div class="about-fade__empty about-fade__empty--fourth"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay" data-modal-overlay="my_modal">
+    <a href="index.html" class="opacity-logo">
+      <img src="img/drop-menu-logo.svg" alt="" class="opacity-logo__img">
+    </a>
+    <div class="drop-menu" data-modal-menu="my_modal">
+      <div class="drop-menu__navbar">
+        <a href="#" class="drop-menu__close">
+          <img src="img/close.svg" alt="" class="close">
+        </a>
+      </div>
+      <ul class="drop-menu__list">
+        <li class="drop-menu__item">
+          <span class="drop-menu__line"></span>
+          <a href="index.html" class="drop-menu__link">
+            Home
+          </a>
+        </li>
+        <li class="drop-menu__item">
+          <span class="drop-menu__line"></span>
+          <a href="about.html" class="drop-menu__link">
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
